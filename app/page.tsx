@@ -12,7 +12,7 @@ const courses = [
   { icon: '📈', tag: 'Marketing', tc: 'rgba(251,191,36,.75)', tb: 'rgba(251,191,36,.06)', bc: 'rgba(251,191,36,.1)', title: 'Digital Marketing', desc: 'SEO, social media, content strategy, and analytics to grow brands online.' },
   { icon: '☕', tag: 'Backend', tc: 'rgba(96,165,250,.75)', tb: 'rgba(96,165,250,.06)', bc: 'rgba(96,165,250,.1)', title: 'Java Programming', desc: 'Core Java, OOP, data structures, Spring Boot basics and backend development.' },
   { icon: '⚡', tag: 'Systems', tc: 'rgba(248,113,113,.75)', tb: 'rgba(248,113,113,.06)', bc: 'rgba(248,113,113,.1)', title: 'C++ Fundamentals', desc: 'Pointers, memory, STL, algorithms and competitive programming preparation.' },
-  { icon: '📱', tag: 'Gaming', tc: 'rgba(139,92,246,.75)', tb: 'rgba(139,92,246,.06)', bc: 'rgba(139,92,246,.1)', title: 'Mobile Game Development', desc: 'Unity for mobile, game mechanics, touch controls, monetization, and publishing games on iOS & Android.' },
+
 ]
 
 export default function Home() {
@@ -284,7 +284,7 @@ export default function Home() {
               <div className="nav-logo" style={{ marginBottom: 14 }}><div className="lm">E</div>ElevateEx</div>
               <p style={{ fontSize: 12, color: 'var(--partners-text)', lineHeight: 1.8, maxWidth: 200, fontWeight: 300 }}>Course-based internships that build real skills and real credentials.</p>
             </div>
-            <div className="fc"><h4>Courses</h4><a href="#">Generative AI</a><a href="#">Web Development</a><a href="#">Digital Marketing</a><a href="#">Java Programming</a><a href="#">C++ Fundamentals</a><a href="#">Mobile Game Development</a></div>
+
             <div className="fc"><h4>Company</h4><a href="#">About us</a><a href="#">Blog</a><a href="#">Partnerships</a><a href="#">Careers</a></div>
             <div className="fc"><h4>Legal</h4><a href="#">Privacy Policy</a><a href="#">Terms of Service</a><a href="#">Refund Policy</a><a href="#">Contact</a></div>
           </div>
