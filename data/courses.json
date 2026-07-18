@@ -1,0 +1,122 @@
+[
+  {
+    "id": "generative-ai",
+    "title": "Generative AI",
+    "description": "Prompt engineering, LLMs, RAG pipelines, and building AI-powered apps from scratch.",
+    "icon": "🤖",
+    "tag": "AI & ML",
+    "tagColor": "rgba(244,114,182,.8)",
+    "iconBg": "rgba(244,114,182,.08)",
+    "borderColor": "rgba(244,114,182,.12)",
+    "price1": 399,
+    "price3": 699,
+    "price6": 999,
+    "published": true,
+    "parts": [
+      {
+        "id": "c7q9hvjx3vlmqe8bs2d",
+        "title": "New Part",
+        "description": "intro",
+        "order": 0,
+        "content": [
+          {
+            "id": "gj2m35ljffgmqe8dt1p",
+            "type": "text",
+            "title": "intro",
+            "text": "hi"
+          }
+        ]
+      },
+      {
+        "id": "4024uwp5fvnmqe8dusp",
+        "title": "New Part",
+        "description": "pic",
+        "order": 1,
+        "content": [
+          {
+            "id": "l649fxn0v1amqe8ea7t",
+            "type": "image",
+            "title": "img",
+            "url": ""
+          },
+          {
+            "id": "hleegjow3ffmqe8f86v",
+            "type": "image",
+            "title": "img",
+            "url": "https://product.indiashoppe.com/Brand/17.svg"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2025-01-01T00:00:00.000Z",
+    "updatedAt": "2026-06-14T20:23:58.544Z"
+  },
+  {
+    "id": "web-development",
+    "title": "Web Development",
+    "description": "HTML, CSS, JavaScript, React & Node.js. Build and deploy full-stack web apps.",
+    "icon": "🌐",
+    "tag": "Dev",
+    "tagColor": "rgba(52,211,153,.75)",
+    "iconBg": "rgba(52,211,153,.06)",
+    "borderColor": "rgba(52,211,153,.1)",
+    "price1": 399,
+    "price3": 699,
+    "price6": 999,
+    "published": true,
+    "parts": [],
+    "createdAt": "2025-01-01T00:00:00.000Z",
+    "updatedAt": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "digital-marketing",
+    "title": "Digital Marketing",
+    "description": "SEO, social media, content strategy, and analytics to grow brands online.",
+    "icon": "📈",
+    "tag": "Marketing",
+    "tagColor": "rgba(251,191,36,.75)",
+    "iconBg": "rgba(251,191,36,.06)",
+    "borderColor": "rgba(251,191,36,.1)",
+    "price1": 399,
+    "price3": 699,
+    "price6": 999,
+    "published": true,
+    "parts": [],
+    "createdAt": "2025-01-01T00:00:00.000Z",
+    "updatedAt": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "java-programming",
+    "title": "Java Programming",
+    "description": "Core Java, OOP, data structures, Spring Boot basics and backend development.",
+    "icon": "☕",
+    "tag": "Backend",
+    "tagColor": "rgba(96,165,250,.75)",
+    "iconBg": "rgba(96,165,250,.06)",
+    "borderColor": "rgba(96,165,250,.1)",
+    "price1": 399,
+    "price3": 699,
+    "price6": 999,
+    "published": true,
+    "parts": [],
+    "createdAt": "2025-01-01T00:00:00.000Z",
+    "updatedAt": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "cpp-fundamentals",
+    "title": "C++ Fundamentals",
+    "description": "Pointers, memory, STL, algorithms and competitive programming preparation.",
+    "icon": "⚡",
+    "tag": "Systems",
+    "tagColor": "rgba(248,113,113,.75)",
+    "iconBg": "rgba(248,113,113,.06)",
+    "borderColor": "rgba(248,113,113,.1)",
+    "price1": 399,
+    "price3": 699,
+    "price6": 999,
+    "published": true,
+    "parts": [],
+    "createdAt": "2025-01-01T00:00:00.000Z",
+    "updatedAt": "2025-01-01T00:00:00.000Z"
+  }
+]

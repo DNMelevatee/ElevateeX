@@ -1,0 +1,43 @@
+┌─────────────────────────────────────────────┐
+│   ElevateeX — Quick Start                     │
+└─────────────────────────────────────────────┘
+
+REQUIREMENTS
+  • Node.js 18.18+ (Node 20 or 22 recommended)
+  • npm (comes with Node)
+
+RUN IT (2 commands, from inside this folder)
+
+  1)  npm install
+  2)  npm run dev
+
+  Then open:  http://localhost:3000
+
+ADMIN PORTAL
+  • URL:       http://localhost:3000/admin
+  • Password:  admin123
+    (set in app/admin/login/page.tsx — change it before going live)
+
+  EXCEL EXPORT (one click → downloads a .xlsx):
+  • Customers page → "Export to Excel"
+       Sheet 1 "Customers"   : name, email, #enrollments, paid count, total spent, joined
+       Sheet 2 "Enrollments" : every enrollment row (paid + test)
+  • Revenue page → "Export to Excel"
+       Sheet 1 "Summary"      : total revenue + breakdown by duration & course
+       Sheet 2 "Transactions" : every paid transaction
+
+OTHER COMMANDS
+  • npm run build   → production build
+  • npm run start   → run the production build (after build)
+
+THEME
+  • Single LIGHT theme across the whole site (theme switch removed).
+  • The homepage hero stays dark (the aurora) on purpose — dark hero,
+    light body. White text on it for max readability.
+
+NOTES
+  • node_modules is NOT included — `npm install` rebuilds it
+    correctly for YOUR operating system.
+  • Data lives in data/ (courses.json, customers.json). Simple file
+    store — perfect for local use. For deployment on Vercel/serverless
+    you'll need a real database (their filesystem is read-only).

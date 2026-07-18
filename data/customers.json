@@ -1,0 +1,20 @@
+[
+  {
+    "id": "omwuq624d3mqe8gmq4",
+    "name": "Test User",
+    "email": "test@test.com",
+    "enrollments": [
+      {
+        "id": "cqfnp7oy6dhmqe8gmq4",
+        "courseId": "generative-ai",
+        "courseName": "Generative AI",
+        "duration": 6,
+        "amount": 0,
+        "isDummy": true,
+        "enrolledAt": "2026-06-14T20:24:50.188Z",
+        "completedParts": []
+      }
+    ],
+    "createdAt": "2026-06-14T20:24:50.188Z"
+  }
+]
